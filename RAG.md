@@ -7,16 +7,26 @@
 ex) ChatGPT는 학습 데이터가 2023년까지라서 2025년의 데이터가 없다. 
 하지만 **RAG는 실시간으로 검색해서 최신 정보를 반영할 수 있다.**
 
+## RAG 아키텍처 
+
+<img width="1053" height="560" alt="image" src="https://github.com/user-attachments/assets/3027ff8e-3763-4b0e-97f6-38ef403e84ba" />
+
+---
+
 ### RAG 검색 서버의 작동 원리
 1. 검색 (Retrieval)    : 사용자의 질문을 분석해서 **관련 정보를 외부 DB나 문서에서 검색**
 2. 증강 (Augmentation) : 검색된 정보를 **LLM에게 전달**해서 맥락을 보강 
 3. 생성 (Generation)   : 보강된 정보를 바탕으로 **LLM이 정확하고 신뢰성 있는 답변 생성**
+
+---
 
 ### RAG 서버 구성
 - 벡터 DB : 검색을 위한 문서 임베딩 저장소 
 - LLM 서버 : GPT 같은 모델이 돌아가는 공간
 - API 서버 : 사용자 요청을 받고, 검색 -> 생성 흐름관리
 - 문서 indexing pipeline : PDF, Web, 내부 문서를 벡터로 변환해서 저장
+
+---
 
 ### RAG의 장점
 - 최신 정보반영 : 학습 이후 생긴 정보도 검색해서 반영 가능
