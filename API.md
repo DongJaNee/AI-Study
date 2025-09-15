@@ -4,6 +4,8 @@
 - 날씨 APP     : 기상청 서버에서 날씨 정보를 가져올 때 --> API를 통해 요청하고 응답을 받는다.
 - 쇼핑몰       : 상품 목록 보기, 장바구니 담기, 결제   --> 모두 API 서버가 처리 
 
+---
+
 ## API 아키텍처 
 
 <img width="995" height="453" alt="image" src="https://github.com/user-attachments/assets/57bdbff5-5dfe-42f7-9177-7b9e7c34ddf8" />
