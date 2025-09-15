@@ -7,6 +7,8 @@
 ex) ChatGPT는 학습 데이터가 2023년까지라서 2025년의 데이터가 없다. 
 하지만 **RAG는 실시간으로 검색해서 최신 정보를 반영할 수 있다.**
 
+---
+
 ## RAG 아키텍처 
 
 <img width="1053" height="560" alt="image" src="https://github.com/user-attachments/assets/3027ff8e-3763-4b0e-97f6-38ef403e84ba" />
