@@ -11,7 +11,8 @@ ex) ChatGPT는 학습 데이터가 2023년까지라서 2025년의 데이터가 �
 
 ## RAG 아키텍처 
 
-<img width="1053" height="560" alt="image" src="https://github.com/user-attachments/assets/3027ff8e-3763-4b0e-97f6-38ef403e84ba" />
+<img width="1139" height="558" alt="image" src="https://github.com/user-attachments/assets/3871fdd9-6a88-473f-863b-1340d5cb5dc0" />
+
 
 ---
 
